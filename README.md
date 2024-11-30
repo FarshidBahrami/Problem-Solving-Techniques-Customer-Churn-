@@ -237,30 +237,15 @@ contributing to the churn score:
 
 Example Table with 1, 2, 3, 4, 5 scale:
 
-  ----------------------------------------------------------------------------------------------------------
-    **Feature**    **1 (Very       **2 (Low)**       **3 (Moderate)**       **4 (High)**        **5 (Very
-                     Low)**                                                                      High)**
-  --------------- ------------ ------------------- -------------------- --------------------- --------------
-    **Recency**    \> 90 days   60--90 days since   30--60 days since     15--30 days since     \< 15 days
-                   since last      last login           last login           last login         since last
-                     login                                                                        login
+| Feature          | 1 (Very Low)                               | 2 (Low)                                   | 3 (Moderate)                             | 4 (High)                                  | 5 (Very High)                            |
+| ---------------- | ----------------------------------------- | ---------------------------------------- | --------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| **Recency**      | > 90 days since last login               | 60–90 days since last login              | 30–60 days since last login             | 15–30 days since last login              | < 15 days since last login               |
+| **Frequency**    | < 1 login in 30 days                     | 1–2 logins in 30 days                    | 3–5 logins in 30 days                   | 6–10 logins in 30 days                   | > 10 logins in 30 days                   |
+| **Monetary Value** | < $100/year                             | $100–$500/year                           | $500–$1000/year                         | $1000–$1500/year                         | > $1500/year                             |
+| **Engagement Score** | < 10                                  | 10–25                                    | 26–50                                   | 51–75                                    | > 75                                     |
+| **Sentiment Score** | Strongly Negative (-2 or lower)        | Negative sentiment (-1)                  | Neutral sentiment (0)                   | Positive sentiment (+1)                  | Strongly Positive sentiment (+2 or higher) |
+| **Tenure**       | < 3 months                               | 3–6 months                               | 6–12 months                             | 1–2 years                                | > 2 years                                |
 
-   **Frequency**   \< 1 login   1--2 logins in 30   3--5 logins in 30    6--10 logins in 30    \> 10 logins
-                   in 30 days         days                 days                 days            in 30 days
-
-    **Monetary         \<       \$100--\$500/year   \$500--\$1000/year   \$1000--\$1500/year  \> \$1500/year
-      Value**      \$100/year                                                                 
-
-   **Engagement      \< 10           10--25               26--50               51--75             \> 75
-      Score**                                                                                 
-
-    **Sentiment     Strongly   Negative sentiment   Neutral sentiment    Positive sentiment      Strongly
-      Score**     Negative (-2        (-1)                 (0)                  (+1)             Positive
-                   or lower)                                                                  sentiment (+2
-                                                                                                or higher)
-
-    **Tenure**    \< 3 months      3--6 months         6--12 months          1--2 years         \> 2 years
-  ----------------------------------------------------------------------------------------------------------
 
 Discuss the thresholds with customer service team and look in data to
 find the best threshold value for each feature. For example, the highest
@@ -289,21 +274,14 @@ normalized to fall between **1 and 5**.
 
 Example
 
-  ------------------------------------------------------------------------
-  Feature                         Value              Score (1--5)
-  ------------------------------- ------------------ ---------------------
-  Recency                         **15 days**        **5**
-
-  Frequency                       **8 logins**       **4**
-
-  Monetary Value                  **\$800/year**     **3**
-
-  Engagement Score                **75**             **3**
-
-  Sentiment Score                 **Positive**       **5**
-
-  Tenure                          **12 months**      **3**
-  ------------------------------------------------------------------------
+| Feature            | Value         | Score (1–5) |
+| ------------------ | ------------- | ----------- |
+| **Recency**        | 15 days       | 5           |
+| **Frequency**      | 8 logins      | 4           |
+| **Monetary Value** | $800/year     | 3           |
+| **Engagement Score** | 75          | 3           |
+| **Sentiment Score** | Positive     | 5           |
+| **Tenure**         | 12 months     | 3           |
 
 Churn Score=(0.3×5)+(0.2×4)+(0.2×3)+(0.15×3)+(0.1×5)+(0.05×3)
 
