@@ -227,24 +227,13 @@ Set meeting with associated team Define churn clearly:
 Break down customer activity into measurable categories, each
 contributing to the churn score:
 
-  ----------------------------------------------------------------------------
-  **Score**   **Definition**
-  ----------- ----------------------------------------------------------------
-  **1**       Highly likely to churn: No recent activity, very low engagement,
-              or negative feedback.
-
-  **2**       At risk of churn: Some activity but declining trends in
-              engagement or monetary value.
-
-  **3**       Neutral: Moderate activity, no significant negative trends, or
-              stable patterns.
-
-  **4**       Likely active: Good engagement, consistent monetary value, or
-              positive sentiment.
-
-  **5**       Highly active: High frequency, recency, strong monetary value,
-              and high engagement.
-  ----------------------------------------------------------------------------
+| Score | Definition                                                                 |
+| ----- | -------------------------------------------------------------------------- |
+| 1     | Highly likely to churn: No recent activity, very low engagement, or negative feedback. |
+| 2     | At risk of churn: Some activity but declining trends in engagement or monetary value. |
+| 3     | Neutral: Moderate activity, no significant negative trends, or stable patterns. |
+| 4     | Likely active: Good engagement, consistent monetary value, or positive sentiment. |
+| 5     | Highly active: High frequency, recency, strong monetary value, and high engagement. |
 
 Example Table with 1, 2, 3, 4, 5 scale:
 
