@@ -1,6 +1,4 @@
-# P1 -- Problem Solving
-
-# Customer Churn Problem
+# Customer Churn Problem Solving Technique
 
 ## Question: 
 
