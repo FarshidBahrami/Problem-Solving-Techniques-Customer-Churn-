@@ -15,7 +15,7 @@ revenue and improving long-term relationships.
 
 Set meeting with associated team Define churn clearly:
 
-> **Step 1: Understand the Problem (Expanded)**
+> **Step 1: Understand the Problem**
 
 1.  **Initiate Discussions with Stakeholders**:
 
